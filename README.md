@@ -55,9 +55,9 @@ $ npm i -D hardhat ethers chai dotenv @nomiclabs/hardhat-ethers @nomiclabs/hardh
 
 * Go to `hardhat.config.js` 
 
-  - Updade Solidity to proper version
+* Updade Solidity to proper version
 
-* Set artifacts path in `src` so React can import it
+* Set artifacts path in `src` when project is compiled
 
 ```js
 paths: {
@@ -73,3 +73,5 @@ networks: {
       chainId: 1337,
     },
 ```
+
+* Create `.env` file in root directory and add `dotenv` dependency in config file
