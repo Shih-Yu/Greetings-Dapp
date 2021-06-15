@@ -24,8 +24,8 @@ module.exports = {
       chainId: 1337,
     },
   },
-  // testnetName: {
-  //   url: "",
-  //   accounts: ""
-  // },
+    ropsten: {
+      url: process.env.INFURA_URL,
+      accounts: [`0x${process.env.ACCOUNT_KEY}`]
+    },
 };
