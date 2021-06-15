@@ -47,9 +47,29 @@ $ npm i -D hardhat ethers chai dotenv @nomiclabs/hardhat-ethers @nomiclabs/hardh
  $ npx hardhat
 ```
 
- 5. Select the simple project option
+ 5. Select ```> Create simple project``` option
 
  ## Instructions
 
 ### Config
 
+* Go to `hardhat.config.js` 
+
+  - Updade Solidity to proper version
+
+* Set artifacts path in `src` so React can import it
+
+```js
+paths: {
+    artifacts: "./src/artifacts",
+  },
+```
+
+* Configure local network for local testing
+
+```js
+networks: {
+    hardhat: {
+      chainId: 1337,
+    },
+```
