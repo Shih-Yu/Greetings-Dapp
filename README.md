@@ -1,6 +1,6 @@
 # Greetings - Dapp
 
-This is a project to learn about writing a simple smart contract using [Solidity](https://docs.soliditylang.org/en/latest/) and deploying it on local and testnet as well as testing with [Hardhat](https://hardhat.org/)
+This is a project to learn about writing a simple smart contract using [Solidity](https://docs.soliditylang.org/en/latest/) and using [Hardhat's](https://hardhat.org/) sample project template, deploying it on local and testnet as well as  testing with it
 
 ## Table of contents
 
