@@ -26,17 +26,19 @@ This is a project to learn about writing a simple smart contract using [Solidity
 
 * [Chai](https://www.chaijs.com/)
 
+* [dotenv](https://www.npmjs.com/package/dotenv)
+
 
 ## Setup
 
-1. Create a directory 
+1. Create a directory
 
 2. `cd` into that directory and run `npx create-react-app [project name]`
 
 3. Install project dependencies
 
 ```sh
-$ npm i -D hardhat ethers chai @nomiclabs/hardhat-ethers @nomiclabs/hardhat-waffle
+$ npm i -D hardhat ethers chai dotenv @nomiclabs/hardhat-ethers @nomiclabs/hardhat-waffle
 ```
 
 4. Create a hardhat project by running
@@ -45,4 +47,9 @@ $ npm i -D hardhat ethers chai @nomiclabs/hardhat-ethers @nomiclabs/hardhat-waff
  $ npx hardhat
 ```
 
- 5. select the simple project option
+ 5. Select the simple project option
+
+ ## Instructions
+
+### Config
+
