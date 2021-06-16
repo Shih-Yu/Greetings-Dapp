@@ -6,7 +6,7 @@ import "hardhat/console.sol";
 
 /// @notice Create a contract and initialize a state variable
 contract Greeter {
-    string greeting;
+    string public greeting;
 
     /// @dev Get the state variable and pass in as argument when contract is first called
     constructor(string memory _greeting) {
