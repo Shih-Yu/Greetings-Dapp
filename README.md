@@ -75,3 +75,10 @@ networks: {
 ```
 
 * Create `.env` file in root directory and add `dotenv` dependency in config file
+
+
+### Compile Contract
+
+```sh
+npx hardhat compile
+```
