@@ -28,6 +28,7 @@ function App() {
         // Initial value -> "Have A Nice Day!", what the contructor is set to
         const data = await contract.greet();
         console.log("Data: ", data);
+        setMessage(data);
       } catch (error) {
         console.log("Error: ", error);
       }
@@ -63,7 +64,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>{ greeting }</h1>
+        <h2>Your message: { greeting }</h2>
         <input
           onChange={ (e) => setMessage(e.target.value) }
           value={greeting}
