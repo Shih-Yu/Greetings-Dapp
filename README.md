@@ -100,7 +100,7 @@ $ npx hardhat run scripts/deploy.js --network localhost
 ```sh
 $ npx hardhat node
 
-npx hardhat run scripts/deploy.js --network [testnet name]
+$ npx hardhat run scripts/deploy.js --network [testnet name]
 ```
 
 ### Connect Metamask
