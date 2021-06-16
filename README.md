@@ -33,7 +33,7 @@ This is a project to learn about writing a simple smart contract using [Solidity
 
 1. Create a directory
 
-2. `cd` into that directory and run `npx create-react-app [project name]`
+2. `cd` into that directory and run `$ npx create-react-app [project name]`
 
 3. Install project dependencies
 
@@ -80,7 +80,7 @@ networks: {
 ### Compile Contract
 
 ```sh
-npx hardhat compile
+$ npx hardhat compile
 ```
 
 ### Deploy (localhost)
@@ -90,7 +90,7 @@ npx hardhat compile
 ```sh
 npx hardhat node
 
-npx hardhat run scripts/deploy.js --network localhost
+$ npx hardhat run scripts/deploy.js --network localhost
 ```
 
 ### Deploy (testnet)
@@ -98,7 +98,7 @@ npx hardhat run scripts/deploy.js --network localhost
 * Generate hardhat local testing enviroment
 
 ```sh
-npx hardhat node
+$ npx hardhat node
 
 npx hardhat run scripts/deploy.js --network [testnet name]
 ```
@@ -111,4 +111,6 @@ npx hardhat run scripts/deploy.js --network [testnet name]
 
 * Connect to react
 
-```sh npm start```
+```sh
+$ npm start
+```
