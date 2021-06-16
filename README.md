@@ -92,3 +92,13 @@ npx hardhat node
 
 npx hardhat run scripts/deploy.js --network localhost
 ```
+
+### Deploy (testnet)
+
+* Generate hardhat local testing enviroment
+
+```sh
+npx hardhat node
+
+npx hardhat run scripts/deploy.js --network [testnet name]
+```
