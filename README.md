@@ -82,3 +82,13 @@ networks: {
 ```sh
 npx hardhat compile
 ```
+
+### Deploy (localhost)
+
+* Generate hardhat local testing enviroment
+
+```sh
+npx hardhat node
+
+npx hardhat run scripts/deploy.js --network localhost
+```
