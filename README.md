@@ -102,3 +102,13 @@ npx hardhat node
 
 npx hardhat run scripts/deploy.js --network [testnet name]
 ```
+
+### Connect Metamask
+
+* Import local testing accounts to metamask using private key or get currency from testnet facuet and connect to testnet
+
+### React
+
+* Connect to react
+
+```sh npm start```
